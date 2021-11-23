@@ -1,0 +1,19 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+    .main {
+        display: flex;
+        padding-top: 56px;
+        flex:1;
+        width: 100%;
+        background-color: black;
+        @media screen and (max-width: 960px) {
+            max-width: 90%;
+            margin: 0 auto;
+            flex-direction: column;
+        }
+    }
+}
